@@ -1,5 +1,5 @@
 # Machine-learning-methods-for-disease-prediction
 
 #  Software Requirements
--> Jupyter Notebook
+-> Jupyter Notebook \n
 -> Eclipse

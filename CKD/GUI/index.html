@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body background="ckdpic.jpg">
+<h3 align="center">CHRONIC KIDNEY DISEASE PREDICTION</h3>
+<fieldset  style="width:80%;">
+<legend style="color:white;">Enter Details</legend>
+<form action="ckdpredict" method="post">
+
+<div style="float:left; margin-right:20px;">
+SPECIFIC GRAVITY :&emsp;&emsp;&ensp;<input type="text" name="sg"><br><br>
+PUS CELL  :  &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <select name="pc">
+<option>Normal</option>
+<option>Abnormal</option>
+</select><br><br>
+PACKED CELL VOLUME  :  <input type="text" name="pcv"><br><br>
+HYPERTENSION : &emsp;&emsp;&emsp;&ensp; <select name="ht">
+<option>Yes</option>
+<option>No</option>
+</select><br><br>
+APETITE : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="ap">
+<option>Good</option>
+<option>Poor</option>
+</select><br><br><br>
+<input type="submit" value="PREDICT">
+</div>
+
+<div style=" float:center; margin-left:30px; margin-top:20px;"> 
+ALBINUM :&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;<input type="text" name="ab"><br><br>
+HEMOGLOBIN:&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <input type="text" name="hg"><br><br>
+RED BLOOD CELL :&emsp;&ensp;&ensp; <input type="text" name="rbc"><br><br>
+DIABETES MELLITUS :&ensp; <select name="dm">
+<option>Yes</option>
+<option>No</option>
+</select><br><br>
+PEDAL EDEMA :&emsp;&emsp;&emsp;&ensp; <select name="pe">
+<option>Yes</option>
+<option>No</option>
+</select><br><br>
+</div>
+</form>
+</fieldset>
+</body>
+</html>
